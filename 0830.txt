@@ -1,0 +1,11 @@
+https://github.com/youngyang888/testpublic.git
+
+把该目录下的所有文件添加到仓库
+git add .
+可以看到，查询状态后文件已经变为绿色，说明add成功
+git status
+git commit把项目提交到仓库 -m 后面引号里面是本次提交的注释内容,可以不写，但最好写上,不然会报错
+git commit -m "first commit"
+
+把github上面的仓库克隆到本地(SSH/URL)https://github.com/youngyang888/testpublic.git
+git clone hgit@github.com:youngyang888/testpublic.git
